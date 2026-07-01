@@ -1,0 +1,1892 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    searched_directories:
+      - "/home/wnnx_user/.local/bin/uname"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/uname"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/uname"
+      - "/home/wnnx_user/bin/uname"
+      - "/home/wnnx_user/.bun/bin/uname"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 5.15.0-179-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    searched_directories:
+      - "/home/wnnx_user/.local/bin/gmake"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/gmake"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/gmake"
+      - "/home/wnnx_user/bin/gmake"
+      - "/home/wnnx_user/.bun/bin/gmake"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    searched_directories:
+      - "/home/wnnx_user/.local/bin/c++"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/c++"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/c++"
+      - "/home/wnnx_user/bin/c++"
+      - "/home/wnnx_user/.bun/bin/c++"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/c++"
+      - "/usr/local/sbin/c++"
+      - "/usr/local/bin/c++"
+      - "/usr/sbin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/"
+    found: "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/4.3.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/wnnx_user/.local/bin/dlltool"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/dlltool"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/dlltool"
+      - "/home/wnnx_user/bin/dlltool"
+      - "/home/wnnx_user/.bun/bin/dlltool"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+      - "/usr/local/lib/node_modules/.bin/dlltool"
+      - "/home/wnnx_user/go-install/go/bin/dlltool"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/wnnx_user/.local/bin/tapi"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/tapi"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/tapi"
+      - "/home/wnnx_user/bin/tapi"
+      - "/home/wnnx_user/.bun/bin/tapi"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+      - "/usr/local/lib/node_modules/.bin/tapi"
+      - "/home/wnnx_user/go-install/go/bin/tapi"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-11.4"
+      - "gcc-ar-11"
+      - "gcc-ar11"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-11.4"
+      - "/home/wnnx_user/.local/bin/gcc-ar-11.4"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/gcc-ar-11.4"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/gcc-ar-11.4"
+      - "/home/wnnx_user/bin/gcc-ar-11.4"
+      - "/home/wnnx_user/.bun/bin/gcc-ar-11.4"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/gcc-ar-11.4"
+      - "/usr/local/sbin/gcc-ar-11.4"
+      - "/usr/local/bin/gcc-ar-11.4"
+      - "/usr/sbin/gcc-ar-11.4"
+      - "/sbin/gcc-ar-11.4"
+      - "/bin/gcc-ar-11.4"
+      - "/usr/games/gcc-ar-11.4"
+      - "/usr/local/games/gcc-ar-11.4"
+      - "/snap/bin/gcc-ar-11.4"
+      - "/usr/local/lib/node_modules/.bin/gcc-ar-11.4"
+      - "/home/wnnx_user/go-install/go/bin/gcc-ar-11.4"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/gcc-ar-11.4"
+    found: "/usr/bin/gcc-ar-11"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-11.4"
+      - "gcc-ranlib-11"
+      - "gcc-ranlib11"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-11.4"
+      - "/home/wnnx_user/.local/bin/gcc-ranlib-11.4"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/gcc-ranlib-11.4"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/gcc-ranlib-11.4"
+      - "/home/wnnx_user/bin/gcc-ranlib-11.4"
+      - "/home/wnnx_user/.bun/bin/gcc-ranlib-11.4"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/gcc-ranlib-11.4"
+      - "/usr/local/sbin/gcc-ranlib-11.4"
+      - "/usr/local/bin/gcc-ranlib-11.4"
+      - "/usr/sbin/gcc-ranlib-11.4"
+      - "/sbin/gcc-ranlib-11.4"
+      - "/bin/gcc-ranlib-11.4"
+      - "/usr/games/gcc-ranlib-11.4"
+      - "/usr/local/games/gcc-ranlib-11.4"
+      - "/snap/bin/gcc-ranlib-11.4"
+      - "/usr/local/lib/node_modules/.bin/gcc-ranlib-11.4"
+      - "/home/wnnx_user/go-install/go/bin/gcc-ranlib-11.4"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/gcc-ranlib-11.4"
+    found: "/usr/bin/gcc-ranlib-11"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-QIjpaw"
+      binary: "/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-QIjpaw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-QIjpaw'
+        
+        Run Build Command(s): /home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1940d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1940d.dir/build.make CMakeFiles/cmTC_1940d.dir/build
+        gmake[1]: Entering directory '/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-QIjpaw'
+        Building CXX object CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o -c /home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1940d.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1940d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccqkLWPD.s
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.3) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/11
+         /usr/include/x86_64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.3) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: ac7fa628ee459f217e6fdb88b3db0bde
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1940d.dir/'
+         as -v --64 -o CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccqkLWPD.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_1940d
+        /home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1940d.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1940d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1940d.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0rMp6C.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1940d /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 11.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0rMp6C.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1940d /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1940d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1940d.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1940d
+        gmake[1]: Leaving directory '/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-QIjpaw'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/11]
+          add: [/usr/include/x86_64-linux-gnu/c++/11]
+          add: [/usr/include/c++/11/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+        collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-QIjpaw']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1940d/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_1940d.dir/build.make CMakeFiles/cmTC_1940d.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-QIjpaw']
+        ignore line: [Building CXX object CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o -c /home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1940d.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1940d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccqkLWPD.s]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.3) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/11]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+        ignore line: [ /usr/include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.3) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: ac7fa628ee459f217e6fdb88b3db0bde]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1940d.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccqkLWPD.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_1940d]
+        ignore line: [/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1940d.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1940d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1940d.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0rMp6C.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1940d /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc0rMp6C.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_1940d] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 11.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0rMp6C.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1940d /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_1940d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/FindOpenMP.cmake:333 (try_compile)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/FindOpenMP.cmake:640 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:14 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-wTi3RY"
+      binary: "/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-wTi3RY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-wTi3RY'
+        
+        Run Build Command(s): /home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_38f33/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_38f33.dir/build.make CMakeFiles/cmTC_38f33.dir/build
+        gmake[1]: Entering directory '/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-wTi3RY'
+        Building CXX object CMakeFiles/cmTC_38f33.dir/OpenMPTryFlag.cpp.o
+        /usr/bin/c++   -fopenmp -std=gnu++20 -fPIE -o CMakeFiles/cmTC_38f33.dir/OpenMPTryFlag.cpp.o -c /home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-wTi3RY/OpenMPTryFlag.cpp
+        Linking CXX executable cmTC_38f33
+        /home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38f33.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_38f33' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_38f33.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpBajxP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_38f33 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_38f33.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_38f33' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_38f33.'
+        /usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_38f33.dir/OpenMPTryFlag.cpp.o -o cmTC_38f33
+        gmake[1]: Leaving directory '/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-wTi3RY'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/FindOpenMP.cmake:377 (message)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/FindOpenMP.cmake:640 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:14 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-wTi3RY']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_38f33/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_38f33.dir/build.make CMakeFiles/cmTC_38f33.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-wTi3RY']
+        ignore line: [Building CXX object CMakeFiles/cmTC_38f33.dir/OpenMPTryFlag.cpp.o]
+        ignore line: [/usr/bin/c++   -fopenmp -std=gnu++20 -fPIE -o CMakeFiles/cmTC_38f33.dir/OpenMPTryFlag.cpp.o -c /home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-wTi3RY/OpenMPTryFlag.cpp]
+        ignore line: [Linking CXX executable cmTC_38f33]
+        ignore line: [/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38f33.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.3' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-0odw26/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.3) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_38f33' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_38f33.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpBajxP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_38f33 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_38f33.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadend.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccpBajxP.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_38f33] ==> ignore
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_38f33.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+        implicit objs: []
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/FindOpenMP.cmake:395 (find_library)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/FindOpenMP.cmake:640 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:14 (find_package)"
+    mode: "library"
+    variable: "OpenMP_gomp_LIBRARY"
+    description: "Path to the gomp library for OpenMP"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gomp"
+    candidate_directories:
+      - "/usr/lib/gcc/x86_64-linux-gnu/11/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/lib/x86_64-linux-gnu/"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/lib/"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    found: "/usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/FindOpenMP.cmake:395 (find_library)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/FindOpenMP.cmake:640 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:14 (find_package)"
+    mode: "library"
+    variable: "OpenMP_pthread_LIBRARY"
+    description: "Path to the pthread library for OpenMP"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pthread"
+    candidate_directories:
+      - "/usr/lib/gcc/x86_64-linux-gnu/11/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/home/wnnx_user/.local/bin/"
+      - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin/"
+      - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin/"
+      - "/home/wnnx_user/bin/"
+      - "/home/wnnx_user/.bun/bin/"
+      - "/home/wnnx_user/node-v20.18.1-linux-x64/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/lib/node_modules/.bin/"
+      - "/home/wnnx_user/go-install/go/bin/"
+      - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/lib/x86_64-linux-gnu/"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/lib/"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/usr/lib/gcc/x86_64-linux-gnu/11/"
+    found: "/usr/lib/x86_64-linux-gnu/libpthread.a"
+    search_context:
+      ENV{PATH}:
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/picoclaw/google-cloud-sdk/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.nvm/versions/node/v22.22.0/bin"
+        - "/home/wnnx_user/bin"
+        - "/home/wnnx_user/.bun/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/node-v20.18.1-linux-x64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/lib/node_modules/.bin"
+        - "/home/wnnx_user/go-install/go/bin"
+        - "/home/wnnx_user/.local/bin"
+        - "/home/wnnx_user/.claude/plugins/cache/thedotmack/claude-mem/13.9.1/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/FindOpenMP.cmake:574 (try_compile)"
+      - "/home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.3/Modules/FindOpenMP.cmake:714 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:14 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-IeLlhr"
+      binary: "/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-IeLlhr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-IeLlhr'
+        
+        Run Build Command(s): /home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ca4bc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ca4bc.dir/build.make CMakeFiles/cmTC_ca4bc.dir/build
+        gmake[1]: Entering directory '/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-IeLlhr'
+        Building CXX object CMakeFiles/cmTC_ca4bc.dir/OpenMPCheckVersion.cpp.o
+        /usr/bin/c++   -fopenmp -std=gnu++20 -fPIE -o CMakeFiles/cmTC_ca4bc.dir/OpenMPCheckVersion.cpp.o -c /home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-IeLlhr/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_ca4bc
+        /home/wnnx_user/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca4bc.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp CMakeFiles/cmTC_ca4bc.dir/OpenMPCheckVersion.cpp.o -o cmTC_ca4bc
+        gmake[1]: Leaving directory '/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/CMakeScratch/TryCompile-IeLlhr'
+        
+      exitCode: 0
+...

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/wnnx_user/zenodo/winnex_audit_cpp/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,8 @@
+/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/winnex_audit.dir
+/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/bench_audit.dir
+/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/edit_cache.dir
+/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/rebuild_cache.dir
+/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/list_install_components.dir
+/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/install.dir
+/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/install/local.dir
+/home/wnnx_user/zenodo/winnex_audit_cpp/build/CMakeFiles/install/strip.dir
