@@ -320,6 +320,8 @@ This module is based on 18 months of research published across 11 Zenodo records
 
 ---
 
+
+> **Benchmark:** [Kaggle: Winnex Definitive Benchmark v1.0](https://www.kaggle.com/code/kleniopadilha/winnex-definitive-benchmark-v1-0) — SIFT-1M, 16 métodos, NDCG=1.000, zero bound violations.
 ## 🏗️ Project History & Transparency Note
 
 ### When This Was Built
