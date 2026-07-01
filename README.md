@@ -4,6 +4,7 @@
 > Keep your vector database. Add mathematical proof.
 
 [![License: BSL 1.1](https://img.shields.io/badge/License-BSL%201.1-yellow)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21107289.svg)](https://doi.org/10.5281/zenodo.21107289)
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.21106472-1682D4?logo=zenodo)](https://doi.org/10.5281/zenodo.21106472)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/winnex-ai/winnex-audit-cpp)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Benchmark-20BEFF?logo=kaggle)](https://www.kaggle.com/code/kleniopadilha/winnex-definitive-benchmark-v1-0)
