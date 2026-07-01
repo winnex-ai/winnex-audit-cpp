@@ -287,6 +287,33 @@ winnex_audit_cpp/
 
 ---
 
+---
+
+## Intellectual Property & Transparency
+
+This repository is made publicly available under the **Business Source License 1.1 (BSL 1.1)** as part of Winnex AI's commitment to **open innovation and investor-grade transparency**.
+
+| Principle | Practice |
+|-----------|----------|
+| **Open Source Code** | Core algorithm, smart contracts, integration layers are fully visible for study and verification |
+| **Protected Commercial Use** | BSL 1.1 allows free study/testing. Commercial deployment requires separate license |
+| **Investor Transparency** | All research and strategy published on Zenodo with permanent DOIs |
+| **Mathematical Verifiability** | Every claim independently reproducible. Code is the documentation |
+
+### Strategic Documentation
+
+| Document | DOI |
+|----------|-----|
+| **Open Letter to Investors** | [10.5281/zenodo.21106637](https://doi.org/10.5281/zenodo.21106637) |
+| **Audit Benchmark Supplement** | [10.5281/zenodo.21101148](https://doi.org/10.5281/zenodo.21101148) |
+| **Definitive Benchmark** | [10.5281/zenodo.21088504](https://doi.org/10.5281/zenodo.21088504) |
+
+Built over 18 months with **zero external capital**. Open source for transparency and mathematical verification.
+
+**Contact:** pay@winnex.ai
+
+---
+
 ## License
 
 **Business Source License 1.1 (BSL 1.1)**
