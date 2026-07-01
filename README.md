@@ -316,3 +316,44 @@ This module is based on 18 months of research published across 11 Zenodo records
 
 *Winnex AI — Enterprise infrastructure for mathematically transparent artificial intelligence.*  
 *CNPJ: 58.364.637/0001-47 | Brazil | pay@winnex.ai*
+
+
+---
+
+## 🏗️ Project History & Transparency Note
+
+### When This Was Built
+
+The Winnex AI project was **started in December 2024** as a private research initiative by Klenio Araujo Padilha under Winnex Brasil Solucoes Empresariais LTDA - ME (CNPJ: 58.364.637/0001-47).
+
+The core mathematical research (Riemannian HMC, Cauchy-Schwarz bounds, QR-JL projections) was developed privately over **18 months (Dec 2024 -- Jun 2026)** before any code was made public. The algorithm went through 12 major iterations (Madhava v1 through v12) as a private codebase.
+
+### Why All Repositories Were Published on the Same Day
+
+All public repositories were created on **July 1, 2026**. This is not because they were built in a day:
+
+1. **The project was private for 18 months** during the research and development phase
+2. **The repositories were opened simultaneously** to present the complete stack architecture to potential investors and partners
+
+### Code Maturity by Layer
+
+| Layer | Development Period | Public Since | Maturity |
+|-------|-------------------|-------------|----------|
+| **Layer 1: Audit Engine** | Dec 2024 -- Jun 2026 (18 mo) | Jul 1, 2026 | Research-grade, compiled, benchmarked |
+| **Layer 2: Enterprise Stack** | Jun 2026 (blueprint) | Jul 1, 2026 | Product vision, not built yet |
+| **Layer 3: Proof-of-Audit** | Jun 2026 (reference) | Jul 1, 2026 | Experimental, not production |
+| **Production Tools** | Jun 2026 (blueprint) | Jul 1, 2026 | Blueprint, not built yet |
+
+### Timeline
+
+```
+Dec 2024    Project started (private)
+Jun 2025    Six bugs identified and corrected; Zenodo records begin
+Jan 2026    Madhava v12; zero bound violations verified on SIFT-1M
+Jun 30, 2026 All 11 Zenodo records published
+Jul 1, 2026  GitHub repositories opened; Open Letter to Investors published
+```
+
+This repository is shared under **Business Source License 1.1 (BSL 1.1)**. The code was previously private and is now opened for transparency and study. Commercial deployment requires a separate license agreement.
+
+**Contact:** pay@winnex.ai
