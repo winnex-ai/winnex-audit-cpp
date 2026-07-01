@@ -1,2 +1,0 @@
-/usr/bin/ar qc libwinnex_audit.a CMakeFiles/winnex_audit.dir/src/engine.cpp.o CMakeFiles/winnex_audit.dir/src/projection.cpp.o
-/usr/bin/ranlib libwinnex_audit.a
